@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ImageView circle;
     ImageView rectangle;
-    boolean active = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,17 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        float viewX = v.getX();
-        float viewY = v.getY();
-        if (!active) {
             moving(v);
-            active = true;
-        }
-        if(active){
-            v.setX(viewX);
-            v.setY(viewY);
-            active = false;
-        }
     }
     public void moving(final View v){
 
