@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KeepMoovin.iml" filepath="$PROJECT_DIR$/KeepMoovin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keep-movin.iml" filepath="$PROJECT_DIR$/keep-movin.iml" />
     </modules>
   </component>
 </project>
