@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ImageView circle;
@@ -77,6 +78,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public void run() {
+            for (Map.Entry<Integer, RunRunnable> entry : hashObjectMap.entrySet()) {
+                Integer key = entry.getKey();
+                if (key.equals(v.getId())) continue;
+                RunRunnable value = entry.getValue();
+
+
+            }
+
             if (v.getX() >= width - v.getWidth()) {
                 side = 2;
             }
